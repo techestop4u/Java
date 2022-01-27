@@ -17,7 +17,7 @@ public class OptionalsDemo
          */
         //Using static empty() method of Optional class.
 
-        Optional<String> optionalEmptyObj = Optional.empty();
+        /*Optional<String> optionalEmptyObj = Optional.empty();
         //isEmpty method available from Java 11
         System.out.println(optionalEmptyObj.isEmpty());
 
@@ -29,7 +29,7 @@ public class OptionalsDemo
 
         //Using static ofNullable() method
         Optional<String> optionalNullableObj = Optional.ofNullable(null);
-        System.out.println(optionalNullableObj);
+        System.out.println(optionalNullableObj);*/
 
 
 
@@ -218,7 +218,7 @@ public class OptionalsDemo
          *  both instances have no value present or;
          *  the present values are "equal to" each other via equals().
          */
-       /* Optional<String> obj1 = Optional.of("Optional Object");
+        /*Optional<String> obj1 = Optional.of("Optional Object");
         Optional<String> obj2 = Optional.of("Optional Object");
         Optional<String> obj3 = Optional.of("Optional Object 3");
         System.out.println("check if the optional object obj1 and obj2 are equal or not: "+ obj1.equals(obj2));
@@ -281,8 +281,8 @@ public class OptionalsDemo
         strObjStream.forEach(s -> System.out.println(s));
         Optional<String> emptyOptional = Optional.empty();
         Stream<String> emptyStrObjStream = emptyOptional.stream();
-        emptyStrObjStream.forEach(s -> System.out.println(s));*/
-
+        emptyStrObjStream.forEach(s -> System.out.println(s));
+*/
 
 
 
