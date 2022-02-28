@@ -1,0 +1,2 @@
+Hi there,
+This string will be written to file named DemoFile4.txt.
