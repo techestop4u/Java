@@ -24,7 +24,7 @@ public class Producer2 implements Runnable{
                     logger.info("["+producerName+"] Sleep for 1s.");
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    Thread.currentThread().interrupt();
                 }
             }
     }

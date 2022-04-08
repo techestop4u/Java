@@ -24,7 +24,7 @@ public class Consumer implements Runnable{
                 logger.info("["+consumerName+"] Message read: "+message);
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
 
         }

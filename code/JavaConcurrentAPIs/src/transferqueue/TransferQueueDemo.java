@@ -16,15 +16,15 @@ public class TransferQueueDemo {
         TransferQueueDemo application = new TransferQueueDemo();
 
         //Single producer and multiple consumer example
-        transferqueue.Producer p1 = new transferqueue.Producer("producer_1");
+        Producer p1 = new Producer("producer_1");
         Thread producerThread = new Thread(p1);
         producerThread.start();
 
-        transferqueue.Consumer c1 = new transferqueue.Consumer("consumer_1");
+        Consumer c1 = new Consumer("consumer_1");
         Thread consumerThread1 = new Thread(c1);
         consumerThread1.start();
 
-        transferqueue.Consumer c2 = new transferqueue.Consumer("consumer_2");
+        Consumer c2 = new Consumer("consumer_2");
         Thread consumerThread2 = new Thread(c2);
         consumerThread2.start();
 
